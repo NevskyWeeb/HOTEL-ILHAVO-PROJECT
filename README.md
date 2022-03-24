@@ -102,6 +102,7 @@ _Below is an example of how you can download and open this project. If you want 
 - [ ] Multi-language Support
     - [ ] Portuguese
     - [ ] English
+- [ ] Functional Log-In and Sign-In button
 - [ ] Present it to the company
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
