@@ -566,6 +566,9 @@ img{
 
 .social-icons li:hover{
     background: #fff;
+}
+
+.social-icons li:hover i{
     color: #2e2e2e;
 }
 
@@ -590,9 +593,9 @@ img{
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .footer-container div:nth-child(1) p{
+    /* .footer-container div:nth-child(1) p{
         padding-left: 20px;
-    }
+    } */
 
     .contact-item{
         display: grid;
