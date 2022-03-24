@@ -71,9 +71,9 @@ Here's why:
 
 This section should list all languages used to create this Project. Add-ons/plugins maybe added in the acknowledgements section.
 
-* [HTML]
-* [CSS]
-* [JavaScript]
+* HTML
+* CSS
+* JavaScript
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
