@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Montebelo Web Site Screen Shot](https://i.imgur.com/HIS4wrW.png)]
+[Montebelo Web Site Screen Shot](https://i.imgur.com/HIS4wrW.png)
 
 There are many great Hotel Websites available on the internet; however, I didn't find one that really suited my likes so I created this one. I want to create a Web Site so amazing that the company would buy my project -- I think this is it.
 
