@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="images/logo.png">
+    <title>Montebelo Vista Alegre</title>
+</head>
+
+<body>
+    <!-- ====== Header ====== -->
+    <header class="header" id="header">
+        <div class="head-top">
+            <div class="site-name">
+                <span>Montebelo Vista Alegre</span>
+            </div>
+            <div class="site-nav">
+                <span id="nav-btn">MENU <i class="fas fa-bars"></i></span>
+            </div>
+        </div>
+
+        <div class="head-bottom flex">
+            <h2>Enjoy the best</h2>
+            <p>Descubra as melhores ofertas do Montebelo Vista Alegre Ílhavo Hotel</p>
+            <button type="button" class="head-btn">SAIBA MAIS</button>
+        </div>
+    </header>
+    <!-- ====== End of Header ====== -->
+    <!-- ====== Side Navbar ====== -->
+    <div class="sidenav" id="sidenav">
+        <span class="cancel-btn" id="cancel-btn">
+            <i class="fas fa-times"></i>
+        </span>
+        <ul class="navbar">
+            <li><a href="#header">INÍCIO</a></li>
+            <li><a href="#services">SERVIÇOS</a></li>
+            <li><a href="#rooms">QUARTOS</a></li>
+            <li><a href="#customers">CLIENTES</a></li>
+        </ul>
+        <button class="btn sign-up">sign up</button>
+        <button class="btn log-in">log in</button>
+    </div>
+    <!-- ====== End of Side Navbar ====== -->
+    <!-- ====== Fullscreen Modal ====== -->
+    <div id="modal">
+
+    </div>
+    <!-- ====== End of Fullscreen Modal ====== -->
+    <!-- ====== Body Content ====== -->
+    <section class="services sec-width" id="services">
+        <div class="title">
+            <h2>Serviços</h2>
+        </div>
+        <div class="services-container">
+            <!-- ====== Single Service ====== -->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-utensils"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Serviços Gastronómicos</h2>
+                    <p>O Montebelo Vista Alegre Ílhavo Hotel é o seu ponto de partida para aproveitar as melhores
+                        experiências gastronómicas,
+                        com todo o conforto e segurança. E não se esqueça que os olhos também comem: entre descobertas
+                        culinárias, saboreie as
+                        vistas arrebatadoras e os lugares cheios de história e delicie-se com as tradições e
+                        hospitalidade locais.</p>
+                    <button type="button" class="btn">Descubra Mais</button>
+                </div>
+            </article>
+            <!-- ====== End of Single Service ====== -->
+            <!-- ====== Single Service ====== -->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-swimming-pool"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Bem Estar</h2>
+                    <p>No Montebelo Vista Alegre Ílhavo Hotel temos tudo o que necessita para o ajudar a recarregar as
+                        baterias na melhor
+                        companhia, com todo o conforto e segurança. Basta escolher os tratamentos e terapias que mais
+                        gosta, e deixar os nossos
+                        terapeutas cuidar do resto.</p>
+                    <button type="button" class="btn">Descubra Mais</button>
+                </div>
+            </article>
+            <!-- ====== End of Single Service ====== -->
+            <!-- ====== Single Service ====== -->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-broom"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Limpezas</h2>
+                    <p>No Montebelo Vista Alegre Ílhavo Hotel temos os melhores empregados a fazer limpeza todos os
+                        dias.</p>
+                    <button type="button" class="btn">Descubra Mais</button>
+                </div>
+            </article>
+            <!-- ====== End of Single Service ====== -->
+            <!-- ====== Single Service ====== -->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-binoculars"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Cultura</h2>
+                    <p>O Montebelo Vista Alegre Ílhavo Hotel tem tudo preparado para os receber com toda a segurança e
+                        conforto, para que possa
+                        descobrir o melhor da cultura, vistas e sabores da região.</p>
+                    <button type="button" class="btn">Descubra Mais</button>
+                </div>
+            </article>
+            <!-- ====== End of Single Service ====== -->
+        </div>
+    </section>
+
+    <div class="book">
+        <form class="book-form">
+            <div class="form-item">
+                <label for="checkin-date">Data Check In: </label>
+                <input type="date" id="checkin-date">
+            </div>
+            <div class="form-item">
+                <label for="checkout-date">Data Check Out: </label>
+                <input type="date" id="checkout-date">
+            </div>
+            <div class="form-item">
+                <label for="adult">Adultos: </label>
+                <input type="number" min="1" value="1" id="adult">
+            </div>
+            <div class="form-item">
+                <label for="children">Crianças: </label>
+                <input type="number" min="0" value="0" id="children">
+            </div>
+            <div class="form-item">
+                <label for="rooms">Quartos: </label>
+                <input type="number" min="1" value="1" id="rooms">
+            </div>
+            <div class="form-item">
+                <input type="submit" class="btn" value="Book Now">
+            </div>
+        </form>
+    </div>
+
+    <section class="rooms sec-width" id="rooms">
+        <div class="title">
+            <h2>Quartos</h2>
+        </div>
+        <div class="rooms-container">
+            <!-- ====== Single Room ====== -->
+            <article class="room">
+                <div class="room-image">
+                    <img src="images/duploStandart.jpg" alt="Quarto Duplo Standard  - Ala Nova">
+                </div>
+                <div class="room-text">
+                    <h3>Quarto Duplo Standard - Ala Nova</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio similique temporibus in
+                        accusantium illum nostrum soluta, laborum nulla nisi voluptate quo, iste tempora a quos
+                        molestiae aliquid praesentium ad quibusdam! Ipsam delectus ea fuga blanditiis labore vel, optio
+                        eos natus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illum dicta provident nobis
+                        quia aliquid excepturi debitis consequatur dolore. Unde enim nesciunt nemo pariatur cupiditate,
+                        fuga natus voluptatem repellat officiis?</p>
+                    <p class="rate">
+                        <span>123.00€ /</span>Por Noite
+                    </p>
+                    <button type="button" class="btn">Reserva já</button>
+                </div>
+            </article>
+            <!-- ====== End of Single Room ====== -->
+            <!-- ====== Single Room ====== -->
+            <article class="room">
+                <div class="room-image">
+                    <img src="images/junior.jpg" alt="Junior Suíte - Ala Nova">
+                </div>
+                <div class="room-text">
+                    <h3>Junior Suíte - Ala Nova</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio similique temporibus in
+                        accusantium illum nostrum soluta, laborum nulla nisi voluptate quo, iste tempora a quos
+                        molestiae aliquid praesentium ad quibusdam! Ipsam delectus ea fuga blanditiis labore vel, optio
+                        eos natus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illum dicta provident nobis
+                        quia aliquid excepturi debitis consequatur dolore. Unde enim nesciunt nemo pariatur cupiditate,
+                        fuga natus voluptatem repellat officiis?</p>
+                    <p class="rate">
+                        <span>174.00€ /</span>Por Noite
+                    </p>
+                    <button type="button" class="btn">Reserva já</button>
+                </div>
+            </article>
+            <!-- ====== End of Single Room ====== -->
+            <!-- ====== Single Room ====== -->
+            <article class="room">
+                <div class="room-image">
+                    <img src="images/master.jpg" alt="Suíte Master - Ala Nova">
+                </div>
+                <div class="room-text">
+                    <h3>Suíte Master - Ala Nova</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio similique temporibus in
+                        accusantium illum nostrum soluta, laborum nulla nisi voluptate quo, iste tempora a quos
+                        molestiae aliquid praesentium ad quibusdam! Ipsam delectus ea fuga blanditiis labore vel, optio
+                        eos natus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illum dicta provident nobis
+                        quia aliquid excepturi debitis consequatur dolore. Unde enim nesciunt nemo pariatur cupiditate,
+                        fuga natus voluptatem repellat officiis?</p>
+                    <p class="rate">
+                        <span>522.00€ /</span>Por Noite
+                    </p>
+                    <button type="button" class="btn">Reserva já</button>
+                </div>
+            </article>
+            <!-- ====== End of Single Room ====== -->
+        </div>
+    </section>
+
+    <section class="customers" id="customers">
+        <div class="sec-width">
+            <div class="title">
+                <h2>Clientes</h2>
+            </div>
+            <div class="customers-container">
+                <!-- ====== Single Customer ====== -->
+                <div class="customer">
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <h3>Boa estadia</h3>
+                    <p>The rooms are big and confortable!quiet hotel with pool and garden!the food is very good!near the
+                        vista alegre
+                        factory!all the covid measures implemented!there is a big carvparking near!small car trips to
+                        restaurants and to aveiro
+                        city.</p>
+                    <img src="images/cust1.PNG" alt="customer image">
+                    <span>Joana, Lisboa</span>
+                </div>
+                <!-- ====== End of Single Customer ====== -->
+                <!-- ====== Single Customer ====== -->
+                <div class="customer">
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <h3>Uma fábrica e um hotel</h3>
+                    <p>O lugar é incrível, pois podemos unir história com modernidade, a fábrica Vista Alegra, museu e
+                        loja com o hotel
+                        moderno. A arquitetura e decoração são incríveis, muito bem feitas e também minimalistas. Ótimos
+                        quartos com varanda de
+                        frente para a piscina. Bom pequeno-almoço e excelente jantar no restaurante.</p>
+                    <img src="images/cust3.PNG" alt="customer image">
+                    <span>José, Lisboa</span>
+                </div>
+                <!-- ====== End of Single Customer ====== -->
+                <!-- ====== Single Customer ====== -->
+                <div class="customer">
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <h3>Bom hotel com muita história</h3>
+                    <p>O hotel foi construído numa antiga propriedade da Vista Alegre e fizeram um trabalho muito bom.
+                        Arquitetura antiga e
+                        nova bem integrada, talvez um bot muito "frio/limpo" em algumas áreas. Nosso quarto, em um
+                        antigo palácio, era muito
+                        bom, espaçoso e confortável.
+                        Áreas sociais não tão aconchegantes quanto gostaríamos, muito modernas e minimalistas.
+                        Restaurante apenas ok. Piscina,
+                        novamente, muito minimalista e moderna, poderia ser mais confortável.
+                        No geral ok, nós apreciamos a nossa estadia, mas não classificaria como um hotel de 5 *, mais um
+                        moderno 4 *.</p>
+                    <img src="images/cust2.PNG" alt="customer image">
+                    <span>João, Porto</span>
+                </div>
+                <!-- ====== End of Single Customer ====== -->
+            </div>
+        </div>
+    </section>
+    <!-- ====== End of Body Content ====== -->
+    <!-- ====== Footer ====== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <h2>Sobre Nós</h2>
+                <p>O Montebelo Vista Alegre Ílhavo Hotel é um símbolo da história, arte e cultura da região Centro de
+                    Portugal, aliado ao valor universal do património e da história de uma das mais prestigiadas marcas
+                    portuguesas: Vista Alegre.</p>
+                <ul class="social-icons">
+                    <li class="flex">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </li>
+                    <li class="flex">
+                        <i class="fa fa-instagram fa-2x"></i>
+                    </li>
+                    <li class="flex">
+                        <i class="fa fa-youtube fa-2x"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Links Uteis</h2>
+                <a href="#">Blog</a>
+                <a href="#">Quartos</a>
+                <a href="#">Subscrições</a>
+                <a href="#">Cartão Presente</a>
+            </div>
+
+            <div>
+                <h2>Privacidade</h2>
+                <a href="#">Carreira</a>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Contacte-nos</a>
+                <a href="#">Serviços</a>
+            </div>
+
+            <div>
+                <h2>Tem Alguma Questão</h2>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <span>
+                        Lugar da Vista Alegre, Ílhavo, Aveiro, Portugal
+                    </span>
+                </div>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-phone-alt"></i>
+                    </span>
+                    <span>
+                        +351 234 241 630
+                    </span>
+                </div>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span>
+                        montebelovistaalegre@montebelohotels.com
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ====== End of Footer ====== -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
